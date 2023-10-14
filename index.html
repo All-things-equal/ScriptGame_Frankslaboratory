@@ -5,29 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprite Animations</title>
-    <link rel="stylesheet" href="style.css">
+    <title>miniGame</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <canvas id="canvas1"></canvas>
-    <div class="controls">
-        <label for="animations">Choose Animation:</label>
-        <select name="animations" id="animations">
-            <option value="idle">Idle</option>
-            <option value="jump">Jump</option>
-            <option value="fall">Fall</option>
-            <option value="run">Run</option>
-            <option value="dizzy">Dizzy</option>
-            <option value="sit">Sit</option>
-            <option value="roll">Roll</option>
-            <option value="bite">Bite</option>
-            <option value="ko">KO</option>
-            <option value="getHit">Get hit</option>
-        </select>
-    </div>
 
-    <script src="script.js"></script>
+    <img id="player" src="assets/img/player.png">
+
+    <img id="layer1" src="assets/img/layer-1.png">
+    <img id="layer2" src="assets/img/layer-2.png">
+    <img id="layer3" src="assets/img/layer-3.png">
+    <img id="layer4" src="assets/img/layer-4.png">
+    <img id="layer5" src="assets/img/layer-5.png">
+
+    <img id="enemy_fly" src="assets/img/enemy_fly.png">
+    <img id="enemy_plant" src="assets/img/enemy_plant.png">
+    <img id="enemy_spider_big" src="assets/img/enemy_spider_big.png">
+
+    <img id="fire" src="assets/img/fire.png">
+    <img id="lives" src="assets/img/lives.png">
+    <img id="colllisionAnimation" src="assets/img/boom.png">
+
+    <script type="module" src="assets/js/script.js"></script>
 </body>
 
 </html>
